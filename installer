@@ -1,6 +1,6 @@
-sudo apt-get install ccd2iso mdf2iso nrg2iso bchunk
+sudo apt-get install ccd2iso mdf2iso nrg2iso bchunk fuseiso
 sleep 3
-echo "sudo {ccd2iso|mdf2iso|ngr2iso|bchunk} original.{ngr|mdf|ccd|cue|bin} converted.iso"
+echo "sudo (ccd2iso|mdf2iso|ngr2iso|bchunk) original.(ngr|mdf|ccd|cue|bin) converted.iso"
 sleep 3
 echo "sudo mount -t iso9660 -o loop archivo.iso /directorio/de/montaje"
 sleep 3
